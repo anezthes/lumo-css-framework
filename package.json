@@ -1,0 +1,15 @@
+{
+  "name": "lumo-css-framework",
+  "version": "1.0.0",
+  "description": "CSS framework for Vaadin's Lumo theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vaadin",
+    "lumo"
+  ],
+  "author": "Joacim Päivärinne",
+  "license": "Apache-2.0"
+}
