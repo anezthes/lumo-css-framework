@@ -359,16 +359,16 @@
   height: var(--lumo-size-xs);
 }
 .h-s {
-  height: var(--lumo-size-xs);
+  height: var(--lumo-size-s);
 }
 .h-m {
-  height: var(--lumo-size-xs);
+  height: var(--lumo-size-m);
 }
 .h-l {
-  height: var(--lumo-size-xs);
+  height: var(--lumo-size-l);
 }
 .h-xl {
-  height: var(--lumo-size-xs);
+  height: var(--lumo-size-xl);
 }
 .h-full {
   height: 100%;
@@ -1071,16 +1071,16 @@
   width: var(--lumo-size-xs);
 }
 .w-s {
-  width: var(--lumo-size-xs);
+  width: var(--lumo-size-s);
 }
 .w-m {
-  width: var(--lumo-size-xs);
+  width: var(--lumo-size-m);
 }
 .w-l {
-  width: var(--lumo-size-xs);
+  width: var(--lumo-size-l);
 }
 .w-xl {
-  width: var(--lumo-size-xs);
+  width: var(--lumo-size-xl);
 }
 .w-full {
   width: 100%;
