@@ -376,6 +376,17 @@
   justify-content: space-evenly;
 }
 
+/* === Line height === */
+.line-height-xs {
+  line-height: var(--lumo-line-height-xs);
+}
+.line-height-s {
+  line-height: var(--lumo-line-height-s);
+}
+.line-height-m {
+  line-height: var(--lumo-line-height-m);
+}
+
 /* === Margin (bottom) === */
 .mb-a {
   margin-bottom: auto;
