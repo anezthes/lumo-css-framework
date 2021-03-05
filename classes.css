@@ -55,6 +55,23 @@
   align-self: stretch;
 }
 
+/* === Borders === */
+.border {
+  border: 1px solid var(--lumo-contrast-20pct);
+}
+.border-b {
+  border-bottom: 1px solid var(--lumo-contrast-20pct);
+}
+.border-l {
+  border-left: 1px solid var(--lumo-contrast-20pct);
+}
+.border-r {
+  border-right: 1px solid var(--lumo-contrast-20pct);
+}
+.border-t {
+  border-top: 1px solid var(--lumo-contrast-20pct);
+}
+
 /* === Border radius === */
 .radius-s {
   border-radius: var(--lumo-border-radius-s);
