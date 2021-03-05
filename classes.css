@@ -105,6 +105,22 @@
   flex-direction: row;
 }
 
+/* === Flex grow === */
+.flex-grow-0 {
+  flex-grow: 0;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* === Flex shrink === */
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.flex-shrink {
+  flex-shrink: 1;
+}
+
 /* === Flex wrap === */
 .flex-nowrap {
   flex-wrap: nowrap;
