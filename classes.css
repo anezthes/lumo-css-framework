@@ -83,6 +83,14 @@
   border-radius: var(--lumo-border-radius-l);
 }
 
+/* === Box sizing === */
+.box-border {
+  box-sizing: border-box;
+}
+.box-content {
+  box-sizing: content-box;
+}
+
 /* === Flex === */
 .flex {
   display: flex;
