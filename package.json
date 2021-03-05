@@ -1,6 +1,6 @@
 {
   "name": "lumo-css-framework",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "CSS framework for building web apps using Vaadin's Lumo theme",
   "keywords": [
     "vaadin",
