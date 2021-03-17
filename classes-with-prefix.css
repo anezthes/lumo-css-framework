@@ -104,6 +104,12 @@
 .v-flex-row {
   flex-direction: row;
 }
+.v-flex-auto {
+  flex: auto;
+}
+.v-flex-none {
+  flex: none;
+}
 
 /* === Flex grow === */
 .v-flex-grow-0 {
@@ -241,6 +247,9 @@
 /* === Grid === */
 .v-grid {
   display: grid;
+}
+.v-inline-grid {
+  display: inline-grid;
 }
 
 /* === Grid columns === */
@@ -1129,4 +1138,3 @@
 .v-w-full {
   width: 100%;
 }
-

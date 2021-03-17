@@ -104,6 +104,12 @@
 .flex-row {
   flex-direction: row;
 }
+.flex-auto {
+  flex: auto;
+}
+.flex-none {
+  flex: none;
+}
 
 /* === Flex grow === */
 .flex-grow-0 {
@@ -241,6 +247,9 @@
 /* === Grid === */
 .grid {
   display: grid;
+}
+.inline-grid {
+  display: inline-grid;
 }
 
 /* === Grid columns === */
@@ -1129,4 +1138,3 @@
 .w-full {
   width: 100%;
 }
-
