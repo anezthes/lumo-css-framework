@@ -347,10 +347,10 @@
 }
 
 /* === Gap === */
-.gap-s {
+.gap-xs {
   gap: var(--lumo-space-xs);
 }
-.gap-m {
+.gap-s {
   gap: var(--lumo-space-s);
 }
 .gap-m {
@@ -364,10 +364,10 @@
 }
 
 /* === Gap (column) === */
-.gap-col-s {
+.gap-col-xs {
   column-gap: var(--lumo-space-xs);
 }
-.gap-col-m {
+.gap-col-s {
   column-gap: var(--lumo-space-s);
 }
 .gap-col-m {
@@ -381,10 +381,10 @@
 }
 
 /* === Gap (row) === */
-.gap-y-s {
+.gap-y-xs {
   row-gap: var(--lumo-space-xs);
 }
-.gap-y-m {
+.gap-y-s {
   row-gap: var(--lumo-space-s);
 }
 .gap-y-m {
