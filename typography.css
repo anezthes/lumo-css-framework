@@ -64,6 +64,11 @@
   line-height: var(--lumo-line-height-m);
 }
 
+/* === List style type === */
+.list-none {
+  list-style-type: none;
+}
+
 /* === Text colors === */
 .text-header {
   color: var(--lumo-header-text-color);
