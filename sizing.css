@@ -1,0 +1,82 @@
+/* === Height === */
+.h-0 {
+  height: 0;
+}
+.h-xs {
+  height: var(--lumo-size-xs);
+}
+.h-s {
+  height: var(--lumo-size-s);
+}
+.h-m {
+  height: var(--lumo-size-m);
+}
+.h-l {
+  height: var(--lumo-size-l);
+}
+.h-xl {
+  height: var(--lumo-size-xl);
+}
+.h-full {
+  height: 100%;
+}
+
+/* === Icon sizing === */
+.icon-s {
+  height: var(--lumo-icon-size-s);
+  width: var(--lumo-icon-size-s);
+}
+.icon-m {
+  height: var(--lumo-icon-size-m);
+  width: var(--lumo-icon-size-m);
+}
+.icon-l {
+  height: var(--lumo-icon-size-l);
+  width: var(--lumo-icon-size-l);
+}
+
+/* === Height (max) === */
+.max-h-full {
+  max-height: 100%;
+}
+
+/* === Height (min) === */
+.min-h-0 {
+  min-height: 0;
+}
+.min-h-full {
+  min-height: 100%;
+}
+
+/* === Width === */
+.w-xs {
+  width: var(--lumo-size-xs);
+}
+.w-s {
+  width: var(--lumo-size-s);
+}
+.w-m {
+  width: var(--lumo-size-m);
+}
+.w-l {
+  width: var(--lumo-size-l);
+}
+.w-xl {
+  width: var(--lumo-size-xl);
+}
+.w-full {
+  width: 100%;
+}
+
+/* === Width (max) === */
+.max-w-full {
+  max-width: 100%;
+}
+
+/* === Width (min) === */
+.min-w-0 {
+  min-width: 0;
+}
+.min-w-full {
+  min-width: 100%;
+}
