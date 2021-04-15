@@ -72,7 +72,7 @@
   list-style-type: none;
 }
 
-/* === Text colors === */
+/* === Text color === */
 .text-header {
   color: var(--lumo-header-text-color);
 }
@@ -96,6 +96,17 @@
 }
 .text-success {
   color: var(--lumo-success-text-color);
+}
+
+/* === Text transform === */
+.capitalize {
+  text-transform: capitalize;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* === Responsive design === */
