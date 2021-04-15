@@ -54,6 +54,9 @@
 }
 
 /* === Line height === */
+.leading-none {
+  line-height: 1;
+}
 .leading-xs {
   line-height: var(--lumo-line-height-xs);
 }
