@@ -98,6 +98,11 @@
   color: var(--lumo-success-text-color);
 }
 
+/* === Text overflow === */
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
 /* === Text transform === */
 .capitalize {
   text-transform: capitalize;
