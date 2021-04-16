@@ -17,6 +17,9 @@
 .h-xl {
   height: var(--lumo-size-xl);
 }
+.h-auto {
+  height: auto;
+}
 .h-full {
   height: 100%;
 }
@@ -72,6 +75,9 @@
 }
 .w-xl {
   width: var(--lumo-size-xl);
+}
+.w-auto {
+  width: auto;
 }
 .w-full {
   width: 100%;
