@@ -16,6 +16,10 @@
   background-color: var(--lumo-base-color);
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-contrast-5 {
   background-color: var(--lumo-contrast-5pct);
 }
