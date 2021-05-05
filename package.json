@@ -7,5 +7,8 @@
     "lumo"
   ],
   "author": "Joacim Päivärinne",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "scripts": {
+    "prepare": "rm all-imports.css && cat *.css > all-imports.css"
+  }
 }
