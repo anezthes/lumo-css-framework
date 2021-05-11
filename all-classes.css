@@ -1615,11 +1615,20 @@
 .text-primary {
   color: var(--lumo-primary-text-color);
 }
+.text-primary-contrast {
+  color: var(--lumo-primary-contrast-color);
+}
 .text-error {
   color: var(--lumo-error-text-color);
 }
+.text-error-contrast {
+  color: var(--lumo-error-contrast-color);
+}
 .text-success {
   color: var(--lumo-success-text-color);
+}
+.text-success-contrast {
+  color: var(--lumo-success-contrast-color);
 }
 
 /* === Text overflow === */
