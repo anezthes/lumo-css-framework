@@ -1,3 +1,112 @@
+/* === Align content === */
+.content-center {
+  align-content: center;
+}
+.content-end {
+  align-content: flex-end;
+}
+.content-start {
+  align-content: flex-start;
+}
+.content-around {
+  align-content: space-around;
+}
+.content-between {
+  align-content: space-between;
+}
+.content-evenly {
+  align-content: space-evenly;
+}
+.content-stretch {
+  align-content: stretch;
+}
+
+/* === Align items === */
+.items-baseline {
+  align-items: baseline;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-stretch   {
+  align-items: stretch;
+}
+
+/* === Align self === */
+.self-auto {
+  align-self: auto;
+}
+.self-baseline {
+  align-self: baseline;
+}
+.self-center {
+  align-self: center;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-start {
+  align-self: flex-start;
+}
+.self-stretch   {
+  align-self: stretch;
+}
+
+/* === Flex === */
+.flex-auto {
+  flex: auto;
+}
+.flex-none {
+  flex: none;
+}
+
+/* === Flex direction === */
+.flex-col {
+  flex-direction: column;
+}
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* === Flex grow === */
+.flex-grow-0 {
+  flex-grow: 0;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* === Flex shrink === */
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+/* === Flex wrap === */
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 /* === Gap === */
 .gap-xs {
   gap: var(--lumo-space-xs);
@@ -107,6 +216,26 @@
   grid-template-rows: repeat(6, minmax(0, 1fr));
 }
 
+/* === Justify content === */
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 /* === Span (column) === */
 .col-span-1 {
   grid-column: span 1 / span 1;
@@ -167,6 +296,12 @@
 
 /* === Responsive design === */
 @media (min-width: 640px) {
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+  .sm\:flex-row {
+    flex-direction: row;
+  }
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -206,6 +341,12 @@
 }
 
 @media (min-width: 768px) {
+  .md\:flex-col {
+    flex-direction: column;
+  }
+  .md\:flex-row {
+    flex-direction: row;
+  }
   .md\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -244,6 +385,12 @@
   }
 }
 @media (min-width: 1024px) {
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+  .lg\:flex-row {
+    flex-direction: row;
+  }
   .lg\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -282,6 +429,12 @@
   }
 }
 @media (min-width: 1280px) {
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+  .xl\:flex-row {
+    flex-direction: row;
+  }
   .xl\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -320,6 +473,12 @@
   }
 }
 @media (min-width: 1536px) {
+  .\32xl\:flex-col {
+    flex-direction: column;
+  }
+  .\32xl\:flex-row {
+    flex-direction: row;
+  }
   .\32xl\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
