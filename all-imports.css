@@ -1,10 +1,8 @@
 @import "accessibility.css";
 @import "backgrounds.css";
 @import "borders.css";
-@import "box-alignment.css";
 @import "effects.css";
-@import "flexbox.css";
-@import "grid.css";
+@import "flexbox-grid.css";
 @import "layout.css";
 @import "sizing.css";
 @import "spacing.css";
