@@ -420,6 +420,14 @@
   row-gap: var(--lumo-space-xl);
 }
 
+/* === Grid auto flow === */
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
 /* === Grid columns === */
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
