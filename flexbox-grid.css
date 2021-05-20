@@ -125,19 +125,19 @@
 }
 
 /* === Gap (column) === */
-.gap-col-xs {
+.gap-x-xs {
   column-gap: var(--lumo-space-xs);
 }
-.gap-col-s {
+.gap-x-s {
   column-gap: var(--lumo-space-s);
 }
-.gap-col-m {
+.gap-x-m {
   column-gap: var(--lumo-space-m);
 }
-.gap-col-l {
+.gap-x-l {
   column-gap: var(--lumo-space-l);
 }
-.gap-col-xl {
+.gap-x-xl {
   column-gap: var(--lumo-space-xl);
 }
 
