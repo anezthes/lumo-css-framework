@@ -122,6 +122,9 @@
 }
 
 /* === Text overflow === */
+.overflow-clip {
+  text-overflow: clip;
+}
 .overflow-ellipsis {
   text-overflow: ellipsis;
 }
