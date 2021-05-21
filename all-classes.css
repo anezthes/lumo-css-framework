@@ -170,6 +170,9 @@
 }
 
 /* === Border radius === */
+.rounded-none {
+  border-radius: 0;
+}
 .rounded-s {
   border-radius: var(--lumo-border-radius-s);
 }
@@ -387,19 +390,19 @@
 }
 
 /* === Gap (column) === */
-.gap-col-xs {
+.gap-x-xs {
   column-gap: var(--lumo-space-xs);
 }
-.gap-col-s {
+.gap-x-s {
   column-gap: var(--lumo-space-s);
 }
-.gap-col-m {
+.gap-x-m {
   column-gap: var(--lumo-space-m);
 }
-.gap-col-l {
+.gap-x-l {
   column-gap: var(--lumo-space-l);
 }
-.gap-col-xl {
+.gap-x-xl {
   column-gap: var(--lumo-space-xl);
 }
 
@@ -1602,6 +1605,20 @@
 /* === List style type === */
 .list-none {
   list-style-type: none;
+}
+
+/* === Text alignment === */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
 }
 
 /* === Text color === */
