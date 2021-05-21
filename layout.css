@@ -7,20 +7,29 @@
 }
 
 /* === Display === */
+.block {
+  display: block;
+}
 .flex {
   display: flex;
 }
 .hidden {
   display: none;
 }
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
 .inline-flex {
   display: inline-flex;
 }
-.grid {
-  display: grid;
-}
 .inline-grid {
   display: inline-grid;
+}
+.grid {
+  display: grid;
 }
 
 /* === Overflow === */
