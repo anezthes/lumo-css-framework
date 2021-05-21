@@ -140,6 +140,23 @@
   text-transform: uppercase;
 }
 
+/* === Whitespace === */
+.whitespace-normal {
+  white-space: normal;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+.whitespace-pre {
+  white-space: pre;
+}
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
 /* === Responsive design === */
 @media (min-width: 640px) {
   .sm\:text-2xs {
