@@ -84,6 +84,9 @@
 }
 
 /* === Border radius === */
+.rounded-none {
+  border-radius: 0;
+}
 .rounded-s {
   border-radius: var(--lumo-border-radius-s);
 }
